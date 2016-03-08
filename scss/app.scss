@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
+
+body {
+
+    .off-canvas {
+        bottom: 0;
+        background: #0097A7;
+        color: #fff;
+        font-weight: 500;
+        position: fixed;
+        -moz-box-shadow:    inset 0 0 10px #ccc;
+        -webkit-box-shadow: inset 0 0 10px #ccc;
+        box-shadow:         inset 0 0 10px #ccc;
+        .profile-pic {
+            border-radius: 5px;
+        }
+        h5.name {
+            color: #263238;
+            font-weight: 700;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+            .big {
+                font-size: 2.5rem!important;
+                color: #fff!important;
+            }
+            //text-transform: uppercase;
+        }
+        .cite {
+
+            border-left: 5px solid #fff;
+            padding: 10px 0 10px 30px;
+            margin: 0 0 1rem 0;
+            p {
+                font-style: italic;
+                color: #fff;
+                span.big1 {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    color: #263238;
+                }
+                span.big2, span.big3 {
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                    color: #263238;
+                }
+
+            }
+        }
+
+    }
+    .off-canvas-content {
+        background: #fff;
+        .title-bar {
+            background: #009688;
+            border-bottom: 3px solid #fff;
+
+            .name {
+                color: #263238;
+                font-weight: 700;
+                font-size: 1rem;
+                font-family: 'Lato', sans-serif;
+                .big {
+                    font-size: 2rem!important;
+                    color: #fff!important;
+                }
+            }
+        }
+
+        .callout {
+            background:  #0097A7;
+            -webkit-box-shadow: 0 10px 6px -6px #777;
+            -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+            color: #fff;
+            h1 {
+                font-weight: 200;
+            }
+
+            .intro-list {
+                display: block;
+                margin-bottom: .5rem;
+                font-size: 1.2rem;
+                li {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    display: inline-block;
+                    vertical-align: middle;
+                    &:before {
+                        content: '\00B7';
+                        display: inline-block;
+                        margin: 0 .5em;
+                    }
+                    &:first-child {
+                        &:before {
+                            content: '';
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    .thumbnail {
+        border: none;
+    }
+
+}
