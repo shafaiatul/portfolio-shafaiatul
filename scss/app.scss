@@ -1,4 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
+@mixin overlay-color {
+    background: -moz-linear-gradient(top,  rgba(0,121,107,0.7) 0%, rgba(0,150,136,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,121,107,0.7) 0%,rgba(0,150,136,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,121,107,0.7) 0%,rgba(0,150,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b300796b', endColorstr='#009688',GradientType=0 ); /* IE6-9 */
+}
+
 
 body {
 
@@ -34,21 +41,21 @@ body {
                 font-style: italic;
                 color: #fff;
                 span.big1 {
-                    font-size: 1.4rem;
+                    font-size: 1.5rem;
                     font-weight: bold;
-                    color: #263238;
+                    color: #E1BEE7;
                 }
                 span.big2, span.big3 {
                     font-size: 1.3rem;
                     font-weight: bold;
-                    color: #263238;
+                    color: #CDDC39;
                 }
 
             }
         }
 
     }
-    .off-canvas-content {
+    .off-canvas-content { //off-canvas Content Starts
         background: #fff;
         .title-bar {
             background: #009688;
@@ -74,6 +81,9 @@ body {
             color: #fff;
             h1 {
                 font-weight: 200;
+                color: #F5F5F5;
+                text-shadow: black 0.1em 0.1em 0.4em;
+                font-family: 'Lato', sans-serif;
             }
 
             .intro-list {
@@ -81,7 +91,8 @@ body {
                 margin-bottom: .5rem;
                 font-size: 1.2rem;
                 li {
-                    font-weight: 500;
+                    font-weight: bold;
+                    font-family: 'Lato', sans-serif;
                     font-size: 1rem;
                     display: inline-block;
                     vertical-align: middle;
@@ -99,9 +110,68 @@ body {
 
             }
         }
-    }
+
+        h2.client-project-title, h2.personal-project-title, h3.follow-me, h3.contact {
+            border-left: 10px solid #00796B;
+            border-right: 10px solid #00796B;
+            padding: 10px 0 10px 30px;
+            margin: 0 0 1rem 0;
+            background: #00BCD4;
+            color: #fff;
+            width: 100%;
+        }
+
+        .client-projects, .personal-projects {
+            .overlay-container {
+                position: relative;
+                .overlay {
+                    position: absolute;
+                    left:0;
+                    right:0;
+                    margin-left: 0;
+                    margin-right: 0;
+                    bottom: 14px;;
+                    padding: 0.5rem;
+                    @include overlay-color;
+                    color: #fff;
+                }
+            }
+        }
+
+        .menu {
+            li a{
+                color: #009688;
+                font-size:20px;
+                i {
+                    background: #C8E6C9;
+                    padding: 10px;
+                    font-size:35px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .contact-form {
+            input[type=text],
+            textarea {
+                background: transparent;
+                border: 2px solid #0097A7;
+
+            }
+            button {
+                background: #0097A7;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+
+
+    } //off-canvas Content Ends
+
+
     .thumbnail {
         border: none;
     }
+
+
 
 }

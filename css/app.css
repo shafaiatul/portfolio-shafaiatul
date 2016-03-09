@@ -26,13 +26,13 @@ body .off-canvas {
       font-style: italic;
       color: #fff; }
       body .off-canvas .cite p span.big1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: bold;
-        color: #263238; }
+        color: #E1BEE7; }
       body .off-canvas .cite p span.big2, body .off-canvas .cite p span.big3 {
         font-size: 1.3rem;
         font-weight: bold;
-        color: #263238; }
+        color: #CDDC39; }
 body .off-canvas-content {
   background: #fff; }
   body .off-canvas-content .title-bar {
@@ -53,13 +53,17 @@ body .off-canvas-content {
     box-shadow: 0 10px 6px -6px #777;
     color: #fff; }
     body .off-canvas-content .callout h1 {
-      font-weight: 200; }
+      font-weight: 200;
+      color: #F5F5F5;
+      text-shadow: black 0.1em 0.1em 0.4em;
+      font-family: 'Lato', sans-serif; }
     body .off-canvas-content .callout .intro-list {
       display: block;
       margin-bottom: .5rem;
       font-size: 1.2rem; }
       body .off-canvas-content .callout .intro-list li {
-        font-weight: 500;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
         font-size: 1rem;
         display: inline-block;
         vertical-align: middle; }
@@ -69,6 +73,49 @@ body .off-canvas-content {
           margin: 0 .5em; }
         body .off-canvas-content .callout .intro-list li:first-child:before {
           content: ''; }
+  body .off-canvas-content h2.client-project-title, body .off-canvas-content h2.personal-project-title, body .off-canvas-content h3.follow-me, body .off-canvas-content h3.contact {
+    border-left: 10px solid #00796B;
+    border-right: 10px solid #00796B;
+    padding: 10px 0 10px 30px;
+    margin: 0 0 1rem 0;
+    background: #00BCD4;
+    color: #fff;
+    width: 100%; }
+  body .off-canvas-content .client-projects .overlay-container, body .off-canvas-content .personal-projects .overlay-container {
+    position: relative; }
+    body .off-canvas-content .client-projects .overlay-container .overlay, body .off-canvas-content .personal-projects .overlay-container .overlay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: 0;
+      margin-right: 0;
+      bottom: 14px;
+      padding: 0.5rem;
+      background: -moz-linear-gradient(top, rgba(0, 121, 107, 0.7) 0%, #009688 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(0, 121, 107, 0.7) 0%, #009688 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, rgba(0, 121, 107, 0.7) 0%, #009688 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b300796b', endColorstr='#009688',GradientType=0 );
+      /* IE6-9 */
+      color: #fff; }
+  body .off-canvas-content .menu li a {
+    color: #009688;
+    font-size: 20px; }
+    body .off-canvas-content .menu li a i {
+      background: #C8E6C9;
+      padding: 10px;
+      font-size: 35px;
+      margin-right: 20px; }
+  body .off-canvas-content .contact-form input[type=text],
+  body .off-canvas-content .contact-form textarea {
+    background: transparent;
+    border: 2px solid #0097A7; }
+  body .off-canvas-content .contact-form button {
+    background: #0097A7;
+    font-weight: 500;
+    font-size: 16px; }
 body .thumbnail {
   border: none; }
 
