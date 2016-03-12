@@ -80,31 +80,49 @@ body .off-canvas-content {
     margin: 0 0 1rem 0;
     background: #00BCD4;
     color: #fff;
-    width: 100%; }
+    width: 100%;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777; }
   body .off-canvas-content .client-projects .overlay-container, body .off-canvas-content .personal-projects .overlay-container {
     display: inline-block;
     vertical-align: top;
     position: relative; }
-    body .off-canvas-content .client-projects .overlay-container .overlay1, body .off-canvas-content .personal-projects .overlay-container .overlay1 {
+    body .off-canvas-content .client-projects .overlay-container .overlay1, body .off-canvas-content .client-projects .overlay-container .overlay11, body .off-canvas-content .personal-projects .overlay-container .overlay1, body .off-canvas-content .personal-projects .overlay-container .overlay11 {
       background: rgba(41, 128, 185, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay2, body .off-canvas-content .personal-projects .overlay-container .overlay2 {
+    body .off-canvas-content .client-projects .overlay-container .overlay2, body .off-canvas-content .client-projects .overlay-container .overlay20, body .off-canvas-content .personal-projects .overlay-container .overlay2, body .off-canvas-content .personal-projects .overlay-container .overlay20 {
       background: rgba(146, 41, 185, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay3, body .off-canvas-content .personal-projects .overlay-container .overlay3 {
-      background: rgba(185, 41, 128, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay4, body .off-canvas-content .personal-projects .overlay-container .overlay4 {
-      background: rgba(185, 146, 41, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay5, body .off-canvas-content .personal-projects .overlay-container .overlay5 {
-      background: rgba(221, 44, 0, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay6, body .off-canvas-content .personal-projects .overlay-container .overlay6 {
-      background: rgba(0, 77, 64, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay7, body .off-canvas-content .personal-projects .overlay-container .overlay7 {
+    body .off-canvas-content .client-projects .overlay-container .overlay3, body .off-canvas-content .client-projects .overlay-container .overlay30, body .off-canvas-content .personal-projects .overlay-container .overlay3, body .off-canvas-content .personal-projects .overlay-container .overlay30 {
       background: rgba(0, 150, 136, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay8, body .off-canvas-content .personal-projects .overlay-container .overlay8 {
+    body .off-canvas-content .client-projects .overlay-container .overlay4, body .off-canvas-content .client-projects .overlay-container .overlay40, body .off-canvas-content .personal-projects .overlay-container .overlay4, body .off-canvas-content .personal-projects .overlay-container .overlay40 {
+      background: rgba(185, 146, 41, 0.7); }
+    body .off-canvas-content .client-projects .overlay-container .overlay5, body .off-canvas-content .client-projects .overlay-container .overlay50, body .off-canvas-content .personal-projects .overlay-container .overlay5, body .off-canvas-content .personal-projects .overlay-container .overlay50 {
+      background: rgba(221, 44, 0, 0.7); }
+    body .off-canvas-content .client-projects .overlay-container .overlay6, body .off-canvas-content .client-projects .overlay-container .overlay60, body .off-canvas-content .personal-projects .overlay-container .overlay6, body .off-canvas-content .personal-projects .overlay-container .overlay60 {
+      background: rgba(0, 77, 64, 0.7); }
+    body .off-canvas-content .client-projects .overlay-container .overlay7, body .off-canvas-content .client-projects .overlay-container .overlay70, body .off-canvas-content .personal-projects .overlay-container .overlay7, body .off-canvas-content .personal-projects .overlay-container .overlay70 {
+      background: rgba(0, 150, 136, 0.7); }
+    body .off-canvas-content .client-projects .overlay-container .overlay8, body .off-canvas-content .client-projects .overlay-container .overlay80, body .off-canvas-content .personal-projects .overlay-container .overlay8, body .off-canvas-content .personal-projects .overlay-container .overlay80 {
       background: rgba(96, 125, 139, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay9, body .off-canvas-content .personal-projects .overlay-container .overlay9 {
+    body .off-canvas-content .client-projects .overlay-container .overlay9, body .off-canvas-content .client-projects .overlay-container .overlay90, body .off-canvas-content .personal-projects .overlay-container .overlay9, body .off-canvas-content .personal-projects .overlay-container .overlay90 {
       background: rgba(136, 14, 79, 0.7); }
-    body .off-canvas-content .client-projects .overlay-container .overlay10, body .off-canvas-content .personal-projects .overlay-container .overlay10 {
+    body .off-canvas-content .client-projects .overlay-container .overlay10, body .off-canvas-content .client-projects .overlay-container .overlay100, body .off-canvas-content .personal-projects .overlay-container .overlay10, body .off-canvas-content .personal-projects .overlay-container .overlay100 {
       background: rgba(33, 150, 243, 0.7); }
+    body .off-canvas-content .client-projects .overlay-container .overlay11, body .off-canvas-content .client-projects .overlay-container .overlay20, body .off-canvas-content .client-projects .overlay-container .overlay30, body .off-canvas-content .client-projects .overlay-container .overlay40, body .off-canvas-content .client-projects .overlay-container .overlay50,
+    body .off-canvas-content .client-projects .overlay-container .overlay60, body .off-canvas-content .client-projects .overlay-container .overlay70, body .off-canvas-content .client-projects .overlay-container .overlay80, body .off-canvas-content .client-projects .overlay-container .overlay90, body .off-canvas-content .client-projects .overlay-container .overlay100, body .off-canvas-content .personal-projects .overlay-container .overlay11, body .off-canvas-content .personal-projects .overlay-container .overlay20, body .off-canvas-content .personal-projects .overlay-container .overlay30, body .off-canvas-content .personal-projects .overlay-container .overlay40, body .off-canvas-content .personal-projects .overlay-container .overlay50,
+    body .off-canvas-content .personal-projects .overlay-container .overlay60, body .off-canvas-content .personal-projects .overlay-container .overlay70, body .off-canvas-content .personal-projects .overlay-container .overlay80, body .off-canvas-content .personal-projects .overlay-container .overlay90, body .off-canvas-content .personal-projects .overlay-container .overlay100 {
+      position: absolute;
+      text-align: center;
+      right: 0;
+      left: 0;
+      bottom: 14px;
+      padding: 20px 0;
+      color: #fff; }
+      body .off-canvas-content .client-projects .overlay-container .overlay11 h4, body .off-canvas-content .client-projects .overlay-container .overlay20 h4, body .off-canvas-content .client-projects .overlay-container .overlay30 h4, body .off-canvas-content .client-projects .overlay-container .overlay40 h4, body .off-canvas-content .client-projects .overlay-container .overlay50 h4,
+      body .off-canvas-content .client-projects .overlay-container .overlay60 h4, body .off-canvas-content .client-projects .overlay-container .overlay70 h4, body .off-canvas-content .client-projects .overlay-container .overlay80 h4, body .off-canvas-content .client-projects .overlay-container .overlay90 h4, body .off-canvas-content .client-projects .overlay-container .overlay100 h4, body .off-canvas-content .personal-projects .overlay-container .overlay11 h4, body .off-canvas-content .personal-projects .overlay-container .overlay20 h4, body .off-canvas-content .personal-projects .overlay-container .overlay30 h4, body .off-canvas-content .personal-projects .overlay-container .overlay40 h4, body .off-canvas-content .personal-projects .overlay-container .overlay50 h4,
+      body .off-canvas-content .personal-projects .overlay-container .overlay60 h4, body .off-canvas-content .personal-projects .overlay-container .overlay70 h4, body .off-canvas-content .personal-projects .overlay-container .overlay80 h4, body .off-canvas-content .personal-projects .overlay-container .overlay90 h4, body .off-canvas-content .personal-projects .overlay-container .overlay100 h4 {
+        margin-top: 0;
+        font-weight: 500; }
     body .off-canvas-content .client-projects .overlay-container .overlay1, body .off-canvas-content .client-projects .overlay-container .overlay2, body .off-canvas-content .client-projects .overlay-container .overlay3, body .off-canvas-content .client-projects .overlay-container .overlay4, body .off-canvas-content .client-projects .overlay-container .overlay5,
     body .off-canvas-content .client-projects .overlay-container .overlay6, body .off-canvas-content .client-projects .overlay-container .overlay7, body .off-canvas-content .client-projects .overlay-container .overlay8, body .off-canvas-content .client-projects .overlay-container .overlay9, body .off-canvas-content .client-projects .overlay-container .overlay10, body .off-canvas-content .personal-projects .overlay-container .overlay1, body .off-canvas-content .personal-projects .overlay-container .overlay2, body .off-canvas-content .personal-projects .overlay-container .overlay3, body .off-canvas-content .personal-projects .overlay-container .overlay4, body .off-canvas-content .personal-projects .overlay-container .overlay5,
     body .off-canvas-content .personal-projects .overlay-container .overlay6, body .off-canvas-content .personal-projects .overlay-container .overlay7, body .off-canvas-content .personal-projects .overlay-container .overlay8, body .off-canvas-content .personal-projects .overlay-container .overlay9, body .off-canvas-content .personal-projects .overlay-container .overlay10 {
@@ -177,25 +195,65 @@ body .off-canvas-content {
       body .off-canvas-content .personal-projects .overlay-container .overlay6 p, body .off-canvas-content .personal-projects .overlay-container .overlay7 p, body .off-canvas-content .personal-projects .overlay-container .overlay8 p, body .off-canvas-content .personal-projects .overlay-container .overlay9 p, body .off-canvas-content .personal-projects .overlay-container .overlay10 p {
         margin-bottom: 1.5em;
         font-weight: 500; }
-  body .off-canvas-content .menu {
+  body .off-canvas-content .social {
     display: inline-block; }
-    body .off-canvas-content .menu li a {
-      color: #009688;
-      font-size: 20px; }
-      body .off-canvas-content .menu li a i {
-        background: #C8E6C9;
-        padding: 10px;
-        font-size: 35px;
-        margin-right: 20px; }
+    body .off-canvas-content .social li {
+      margin-bottom: 8px; }
+      body .off-canvas-content .social li a {
+        color: #009688;
+        font-size: 20px;
+        transition-duration: .7s;
+        font-weight: 500; }
+        body .off-canvas-content .social li a:hover {
+          color: #1583cc; }
+        body .off-canvas-content .social li a i {
+          background: #C8E6C9;
+          padding: 5px 10px;
+          font-size: 35px;
+          margin-right: 20px;
+          transition-duration: .5s; }
+          body .off-canvas-content .social li a i:hover {
+            background: #0097A7;
+            color: #fff; }
+  body .off-canvas-content .contact-form input[type=text] {
+    height: 55px;
+    padding-left: 50px; }
+  body .off-canvas-content .contact-form label {
+    position: relative; }
+    body .off-canvas-content .contact-form label i {
+      position: absolute;
+      left: 10px;
+      font-size: 30px;
+      color: #00BCD4;
+      padding-right: 10px;
+      border-right: 2px solid #0097A7;
+      transition-duration: .7s; }
+    body .off-canvas-content .contact-form label:hover i {
+      border-right: 2px solid #673AB7;
+      color: #673AB7; }
   body .off-canvas-content .contact-form input[type=text],
   body .off-canvas-content .contact-form textarea {
     background: transparent;
-    border: 2px solid #0097A7; }
+    border: 2px solid #0097A7;
+    color: #0097A7;
+    font-weight: bold;
+    transition-duration: .7s; }
+    body .off-canvas-content .contact-form input[type=text]:hover,
+    body .off-canvas-content .contact-form textarea:hover {
+      border: 2px solid #673AB7; }
   body .off-canvas-content .contact-form button {
     background: #0097A7;
     font-weight: 500;
-    font-size: 16px; }
+    font-size: 16px;
+    transition-duration: .7s; }
+    body .off-canvas-content .contact-form button:hover {
+      color: #fff;
+      font-weight: bold;
+      background: #673AB7; }
 body .thumbnail {
-  border: none; }
+  border: none;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777; }
 
 /*# sourceMappingURL=app.css.map */

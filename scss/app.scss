@@ -119,6 +119,9 @@ body {
             background: #00BCD4;
             color: #fff;
             width: 100%;
+            -webkit-box-shadow: 0 10px 6px -6px #777;
+            -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
         }
 
         .client-projects, .personal-projects {
@@ -126,36 +129,52 @@ body {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
-                .overlay1 {
+                .overlay1, .overlay11 {
                     background: rgba(41, 128, 185, 0.7);
                 }
-                .overlay2 {
+                .overlay2, .overlay20 {
                     background: rgba(146, 41, 185, 0.7);
                 }
-                .overlay3 {
-                    background: rgba(185, 41, 128, 0.7);
-                }
-                .overlay4 {
-                    background: rgba(185, 146, 41, 0.7);
-                }
-                .overlay5 {
-                    background: rgba(221, 44, 0, 0.7);
-                }
-                .overlay6 {
-                    background: rgba(0, 77, 64, 0.7);
-                }
-                .overlay7 {
+                .overlay3, .overlay30 {
                     background: rgba(0, 150, 136, 0.7);
                 }
-                .overlay8 {
+                .overlay4, .overlay40 {
+                    background: rgba(185, 146, 41, 0.7);
+                }
+                .overlay5, .overlay50 {
+                    background: rgba(221, 44, 0, 0.7);
+                }
+                .overlay6, .overlay60 {
+                    background: rgba(0, 77, 64, 0.7);
+                }
+                .overlay7, .overlay70 {
+                    background: rgba(0, 150, 136, 0.7);
+                }
+                .overlay8, .overlay80 {
                     background: rgba(96, 125, 139, 0.7);
                 }
-                .overlay9 {
+                .overlay9, .overlay90 {
                     background: rgba(136, 14, 79, 0.7);
                 }
-                .overlay10 {
+                .overlay10, .overlay100 {
                     background: rgba(33, 150, 243, 0.7);
                 }
+
+
+                .overlay11, .overlay20, .overlay30, .overlay40, .overlay50,
+                 .overlay60, .overlay70, .overlay80, .overlay90, .overlay100 {
+                     position: absolute;
+                     text-align: center;
+                     right: 0;
+                     left: 0;
+                     bottom: 14px;
+                     padding: 20px 0;
+                     color: #fff;
+                     h4 {
+                         margin-top: 0;
+                         font-weight: 500;
+                     }
+                 }
 
 
                 .overlay1, .overlay2, .overlay3, .overlay4, .overlay5,
@@ -226,32 +245,80 @@ body {
 
 
 
-        .menu {
+        .social {
             display: inline-block;
-            li a{
-                color: #009688;
-                font-size:20px;
+            li {
+                margin-bottom: 8px;
+                 a {
+                    color: #009688;
+                    font-size:20px;
+                    transition-duration: .7s;
+                    font-weight: 500;
+                    &:hover {
+                        color: #1583cc;
+                    }
 
-                i {
-                    background: #C8E6C9;
-                    padding: 10px;
-                    font-size:35px;
-                    margin-right: 20px;
+                    i {
+                        background: #C8E6C9;
+                        padding: 5px 10px;
+                        font-size:35px;
+                        margin-right: 20px;
+                        transition-duration: .5s;
+                        &:hover {
+                            background: #0097A7;
+                            color: #fff;
+                        }
 
+                    }
                 }
             }
         }
         .contact-form {
+            input[type=text] {
+                height: 55px;
+                padding-left: 50px;
+            }
+            label {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    left: 10px;
+                    font-size: 30px;
+                    color: #00BCD4;
+                    padding-right: 10px;
+                    border-right: 2px solid #0097A7;
+                    transition-duration: .7s;
+
+                }
+                &:hover i {
+                    border-right: 2px solid #673AB7;
+                    color: #673AB7;
+                }
+            }
+
             input[type=text],
             textarea {
                 background: transparent;
                 border: 2px solid #0097A7;
-
+                color: #0097A7;
+                font-weight: bold;
+                transition-duration: .7s;
+                &:hover {
+                    border: 2px solid #673AB7;
+                }
             }
             button {
                 background: #0097A7;
                 font-weight: 500;
                 font-size: 16px;
+                transition-duration: .7s;
+                &:hover {
+                    color: #fff;
+                    font-weight: bold;
+                    background: #673AB7;
+
+                }
             }
         }
 
@@ -261,6 +328,9 @@ body {
 
     .thumbnail {
         border: none;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
     }
 
 
