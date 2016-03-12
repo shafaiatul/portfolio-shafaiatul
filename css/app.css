@@ -9,7 +9,7 @@ body .off-canvas {
   -webkit-box-shadow: inset 0 0 10px #ccc;
   box-shadow: inset 0 0 10px #ccc; }
   body .off-canvas .profile-pic {
-    border-radius: 5px; }
+    border-radius: 50%; }
   body .off-canvas h5.name {
     color: #263238;
     font-weight: 700;
@@ -73,7 +73,7 @@ body .off-canvas-content {
           margin: 0 .5em; }
         body .off-canvas-content .callout .intro-list li:first-child:before {
           content: ''; }
-  body .off-canvas-content h2.client-project-title, body .off-canvas-content h2.personal-project-title, body .off-canvas-content h3.follow-me, body .off-canvas-content h3.contact {
+  body .off-canvas-content h2.client-project-title, body .off-canvas-content h2.personal-project-title, body .off-canvas-content h3.follow-me, body .off-canvas-content h3.contact, body .off-canvas-content h3.skills {
     border-left: 10px solid #00796B;
     border-right: 10px solid #00796B;
     padding: 10px 0 10px 30px;
@@ -88,6 +88,10 @@ body .off-canvas-content {
     display: inline-block;
     vertical-align: top;
     position: relative; }
+    body .off-canvas-content .client-projects .overlay-container .thumbnail, body .off-canvas-content .personal-projects .overlay-container .thumbnail {
+      -webkit-box-shadow: 8px 10px 6px -6px #777;
+      -moz-box-shadow: 8px 10px 6px -6px #777;
+      box-shadow: 8px 10px 6px -6px #777; }
     body .off-canvas-content .client-projects .overlay-container .overlay1, body .off-canvas-content .client-projects .overlay-container .overlay11, body .off-canvas-content .personal-projects .overlay-container .overlay1, body .off-canvas-content .personal-projects .overlay-container .overlay11 {
       background: rgba(41, 128, 185, 0.7); }
     body .off-canvas-content .client-projects .overlay-container .overlay2, body .off-canvas-content .client-projects .overlay-container .overlay20, body .off-canvas-content .personal-projects .overlay-container .overlay2, body .off-canvas-content .personal-projects .overlay-container .overlay20 {
@@ -195,6 +199,11 @@ body .off-canvas-content {
       body .off-canvas-content .personal-projects .overlay-container .overlay6 p, body .off-canvas-content .personal-projects .overlay-container .overlay7 p, body .off-canvas-content .personal-projects .overlay-container .overlay8 p, body .off-canvas-content .personal-projects .overlay-container .overlay9 p, body .off-canvas-content .personal-projects .overlay-container .overlay10 p {
         margin-bottom: 1.5em;
         font-weight: 500; }
+  body .off-canvas-content h6 {
+    color: #778492;
+    font-weight: bold; }
+  body .off-canvas-content .progress {
+    height: 1.2rem; }
   body .off-canvas-content .social {
     display: inline-block; }
     body .off-canvas-content .social li {
@@ -242,18 +251,32 @@ body .off-canvas-content {
     body .off-canvas-content .contact-form textarea:hover {
       border: 2px solid #673AB7; }
   body .off-canvas-content .contact-form button {
-    background: #0097A7;
     font-weight: 500;
     font-size: 16px;
-    transition-duration: .7s; }
+    border-radius: 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 300ms ease-in-out; }
+    body .off-canvas-content .contact-form button:after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 100%;
+      background: #673AB7;
+      z-index: -1;
+      transition: width 400ms ease-in-out; }
     body .off-canvas-content .contact-form button:hover {
-      color: #fff;
-      font-weight: bold;
-      background: #673AB7; }
+      color: #fff; }
+      body .off-canvas-content .contact-form button:hover:after {
+        width: 110%; }
 body .thumbnail {
-  border: none;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777; }
+  width: 100%;
+  border: none; }
 
 /*# sourceMappingURL=app.css.map */

@@ -19,7 +19,7 @@ body {
         -webkit-box-shadow: inset 0 0 10px #ccc;
         box-shadow:         inset 0 0 10px #ccc;
         .profile-pic {
-            border-radius: 5px;
+            border-radius: 50%;
         }
         h5.name {
             color: #263238;
@@ -111,7 +111,7 @@ body {
             }
         }
 
-        h2.client-project-title, h2.personal-project-title, h3.follow-me, h3.contact {
+        h2.client-project-title, h2.personal-project-title, h3.follow-me, h3.contact, h3.skills {
             border-left: 10px solid #00796B;
             border-right: 10px solid #00796B;
             padding: 10px 0 10px 30px;
@@ -129,6 +129,11 @@ body {
                 display: inline-block;
                 vertical-align: top;
                 position: relative;
+                .thumbnail {
+                    -webkit-box-shadow: 8px 10px 6px -6px #777;
+                    -moz-box-shadow: 8px 10px 6px -6px #777;
+                    box-shadow: 8px 10px 6px -6px #777;
+                }
                 .overlay1, .overlay11 {
                     background: rgba(41, 128, 185, 0.7);
                 }
@@ -242,8 +247,13 @@ body {
                 }
             }
         }
-
-
+        h6 {
+            color: #778492;
+            font-weight: bold;
+        }
+        .progress {
+            height: 1.2rem;;
+        }
 
         .social {
             display: inline-block;
@@ -309,17 +319,38 @@ body {
                 }
             }
             button {
-                background: #0097A7;
-                font-weight: 500;
-                font-size: 16px;
-                transition-duration: .7s;
-                &:hover {
-                    color: #fff;
-                    font-weight: bold;
-                    background: #673AB7;
 
+              font-weight: 500;
+              font-size: 16px;
+              border-radius: 0;
+              color: #fff;
+              position: relative;
+              overflow: hidden;
+              z-index: 1;
+              transition: color 300ms ease-in-out;
+
+              &:after {
+                content: '';
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 0;
+                height: 100%;
+                background: #673AB7;
+                z-index: -1;
+                transition: width 400ms ease-in-out;
+              }
+
+              &:hover {
+                color: #fff;
+                &:after {
+                  width: 110%;
                 }
+              }
             }
+
         }
 
 
@@ -327,10 +358,8 @@ body {
 
 
     .thumbnail {
+        width: 100%;
         border: none;
-        -webkit-box-shadow: 0 10px 6px -6px #777;
-        -moz-box-shadow: 0 10px 6px -6px #777;
-        box-shadow: 0 10px 6px -6px #777;
     }
 
 
