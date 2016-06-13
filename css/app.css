@@ -130,13 +130,57 @@ body .off-canvas-content {
       opacity: 1;
       transition: all .3s ease-out;
       transition-delay: .3s; }
-  body .off-canvas-content h6 {
+  body .off-canvas-content #skills h6 {
     color: #778492;
     font-weight: bold; }
-  body .off-canvas-content .progress {
+  body .off-canvas-content #skills .progress {
     height: 1.2rem; }
-    body .off-canvas-content .progress .progress-meter {
+    body .off-canvas-content #skills .progress .progress-meter {
       background: #e8c63d; }
+  body .off-canvas-content #clients .tdc, body .off-canvas-content #clients .annoor, body .off-canvas-content #clients .raees {
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+    body .off-canvas-content #clients .tdc:hover, body .off-canvas-content #clients .annoor:hover, body .off-canvas-content #clients .raees:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    body .off-canvas-content #clients .tdc img, body .off-canvas-content #clients .annoor img, body .off-canvas-content #clients .raees img {
+      padding: 20px; }
+    body .off-canvas-content #clients .tdc ul, body .off-canvas-content #clients .annoor ul, body .off-canvas-content #clients .raees ul {
+      text-align: center;
+      margin-top: 20px;
+      background: #ECEFF1;
+      margin-left: 0;
+      padding: 30px; }
+      body .off-canvas-content #clients .tdc ul li, body .off-canvas-content #clients .annoor ul li, body .off-canvas-content #clients .raees ul li {
+        list-style: none;
+        margin: 3px 10px;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: .125rem solid #f3f3f3;
+        background: #fff;
+        transition: 250ms; }
+        body .off-canvas-content #clients .tdc ul li a i, body .off-canvas-content #clients .annoor ul li a i, body .off-canvas-content #clients .raees ul li a i {
+          margin-top: 15px;
+          color: #353c4a; }
+        body .off-canvas-content #clients .tdc ul li.facebook:hover, body .off-canvas-content #clients .tdc ul li.facebook:focus, body .off-canvas-content #clients .annoor ul li.facebook:hover, body .off-canvas-content #clients .annoor ul li.facebook:focus, body .off-canvas-content #clients .raees ul li.facebook:hover, body .off-canvas-content #clients .raees ul li.facebook:focus {
+          box-shadow: 0 0 24px 0 #3b5998; }
+          body .off-canvas-content #clients .tdc ul li.facebook:hover a i, body .off-canvas-content #clients .tdc ul li.facebook:focus a i, body .off-canvas-content #clients .annoor ul li.facebook:hover a i, body .off-canvas-content #clients .annoor ul li.facebook:focus a i, body .off-canvas-content #clients .raees ul li.facebook:hover a i, body .off-canvas-content #clients .raees ul li.facebook:focus a i {
+            color: #3b5998; }
+        body .off-canvas-content #clients .tdc ul li.twitter:hover, body .off-canvas-content #clients .tdc ul li.twitter:focus, body .off-canvas-content #clients .annoor ul li.twitter:hover, body .off-canvas-content #clients .annoor ul li.twitter:focus, body .off-canvas-content #clients .raees ul li.twitter:hover, body .off-canvas-content #clients .raees ul li.twitter:focus {
+          box-shadow: 0 0 24px 0 #00ACED; }
+          body .off-canvas-content #clients .tdc ul li.twitter:hover a i, body .off-canvas-content #clients .tdc ul li.twitter:focus a i, body .off-canvas-content #clients .annoor ul li.twitter:hover a i, body .off-canvas-content #clients .annoor ul li.twitter:focus a i, body .off-canvas-content #clients .raees ul li.twitter:hover a i, body .off-canvas-content #clients .raees ul li.twitter:focus a i {
+            color: #00ACED; }
+        body .off-canvas-content #clients .tdc ul li.googleplus:hover, body .off-canvas-content #clients .tdc ul li.googleplus:focus, body .off-canvas-content #clients .annoor ul li.googleplus:hover, body .off-canvas-content #clients .annoor ul li.googleplus:focus, body .off-canvas-content #clients .raees ul li.googleplus:hover, body .off-canvas-content #clients .raees ul li.googleplus:focus {
+          box-shadow: 0 0 24px 0 #dd4b39; }
+          body .off-canvas-content #clients .tdc ul li.googleplus:hover a i, body .off-canvas-content #clients .tdc ul li.googleplus:focus a i, body .off-canvas-content #clients .annoor ul li.googleplus:hover a i, body .off-canvas-content #clients .annoor ul li.googleplus:focus a i, body .off-canvas-content #clients .raees ul li.googleplus:hover a i, body .off-canvas-content #clients .raees ul li.googleplus:focus a i {
+            color: #dd4b39; }
+        body .off-canvas-content #clients .tdc ul li.web:hover, body .off-canvas-content #clients .tdc ul li.web:focus, body .off-canvas-content #clients .annoor ul li.web:hover, body .off-canvas-content #clients .annoor ul li.web:focus, body .off-canvas-content #clients .raees ul li.web:hover, body .off-canvas-content #clients .raees ul li.web:focus {
+          box-shadow: 0 0 24px 0 #C51162; }
+          body .off-canvas-content #clients .tdc ul li.web:hover a i, body .off-canvas-content #clients .tdc ul li.web:focus a i, body .off-canvas-content #clients .annoor ul li.web:hover a i, body .off-canvas-content #clients .annoor ul li.web:focus a i, body .off-canvas-content #clients .raees ul li.web:hover a i, body .off-canvas-content #clients .raees ul li.web:focus a i {
+            color: #C51162; }
 body .thumbnail {
   width: 100%;
   border: none; }
