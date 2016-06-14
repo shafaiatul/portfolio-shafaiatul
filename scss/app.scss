@@ -206,7 +206,7 @@ body {
         }
 
         // Clients
-        #clients {
+        #clients{
             .tdc, .annoor, .raees {
                 margin-bottom: 30px;
                 background: #fff;
@@ -292,6 +292,136 @@ body {
                         }
                     }
                 }
+
+            }
+
+
+        }
+
+        //Contact
+        #contact {
+            .callout.email {
+                background: #00BFA5;
+                border: 0;
+                margin-bottom: 0;
+                margin-top: 30px;
+
+
+                    a {
+                        font-size: 40px;
+                        color: #fff;
+                        font-family: 'Open Sans Condensed', sans-serif;
+                        font-weight: 300;
+                        @media screen and (min-width: 40em) {
+                            font-size: 80px;
+                        }
+                    }
+
+            }
+            .callout.address-and-social {
+                background: #fff;
+                border: 0;
+                margin-bottom: 0;
+
+
+                    .phone-call {
+
+                        i {
+                            color: #353c4a;
+                        }
+                        a {
+                            .number {
+                                font-weight: 700;
+                                font-size: 25px;
+                                margin-bottom: 10px;
+                                font-family: 'Open Sans Condensed', sans-serif;
+                                color: #37474F;
+                            }
+                        }
+                    }
+                    .social {
+                        ul {
+                            text-align: center;
+                            margin-top: 20px;
+                            margin-left: 0;
+                            padding: 30px;
+
+                            li {
+                                list-style: none;
+                                margin: 3px 10px;
+                                display: inline-block;
+                                height: 80px;
+                                width: 80px;
+                                border-radius: 50%;
+                                border: .125rem solid #f3f3f3;
+                                background: #ECEFF1;
+                                transition: 250ms;
+
+                                a {
+                                    i {
+                                        margin-top: 22px;
+                                        color: #353c4a;
+                                    }
+                                }
+                                &.facebook { // Facebook
+                                    &:hover,
+                                    &:focus {
+                                        box-shadow: 0 0 24px 0 #3b5998;
+                                        a {
+                                            i {
+                                                color: #3b5998;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.twitter { // Twitter
+                                    &:hover,
+                                    &:focus {
+                                        box-shadow: 0 0 24px 0 #00ACED;
+                                        a {
+                                            i {
+                                                color: #00ACED;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.googleplus { // Google Plus
+                                    &:hover,
+                                    &:focus {
+                                        box-shadow: 0 0 24px 0 #dd4b39;
+                                        a {
+                                            i {
+                                                color: #dd4b39;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.web { // Google Plus
+                                    &:hover,
+                                    &:focus {
+                                        box-shadow: 0 0 24px 0 #C51162;
+                                        a {
+                                            i {
+                                                color: #C51162;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                &.github { // Github
+                                    &:hover,
+                                    &:focus {
+                                        box-shadow: 0 0 24px 0 #3F51B5;
+                                        a {
+                                            i {
+                                                color: #3F51B5;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
 
             }
         }

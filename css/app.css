@@ -181,6 +181,69 @@ body .off-canvas-content {
           box-shadow: 0 0 24px 0 #C51162; }
           body .off-canvas-content #clients .tdc ul li.web:hover a i, body .off-canvas-content #clients .tdc ul li.web:focus a i, body .off-canvas-content #clients .annoor ul li.web:hover a i, body .off-canvas-content #clients .annoor ul li.web:focus a i, body .off-canvas-content #clients .raees ul li.web:hover a i, body .off-canvas-content #clients .raees ul li.web:focus a i {
             color: #C51162; }
+  body .off-canvas-content #contact .callout.email {
+    background: #00BFA5;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 30px; }
+    body .off-canvas-content #contact .callout.email a {
+      font-size: 40px;
+      color: #fff;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 300; }
+      @media screen and (min-width: 40em) {
+        body .off-canvas-content #contact .callout.email a {
+          font-size: 80px; } }
+  body .off-canvas-content #contact .callout.address-and-social {
+    background: #fff;
+    border: 0;
+    margin-bottom: 0; }
+    body .off-canvas-content #contact .callout.address-and-social .phone-call i {
+      color: #353c4a; }
+    body .off-canvas-content #contact .callout.address-and-social .phone-call a .number {
+      font-weight: 700;
+      font-size: 25px;
+      margin-bottom: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #37474F; }
+    body .off-canvas-content #contact .callout.address-and-social .social ul {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 0;
+      padding: 30px; }
+      body .off-canvas-content #contact .callout.address-and-social .social ul li {
+        list-style: none;
+        margin: 3px 10px;
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: .125rem solid #f3f3f3;
+        background: #ECEFF1;
+        transition: 250ms; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li a i {
+          margin-top: 22px;
+          color: #353c4a; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li.facebook:hover, body .off-canvas-content #contact .callout.address-and-social .social ul li.facebook:focus {
+          box-shadow: 0 0 24px 0 #3b5998; }
+          body .off-canvas-content #contact .callout.address-and-social .social ul li.facebook:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.facebook:focus a i {
+            color: #3b5998; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li.twitter:hover, body .off-canvas-content #contact .callout.address-and-social .social ul li.twitter:focus {
+          box-shadow: 0 0 24px 0 #00ACED; }
+          body .off-canvas-content #contact .callout.address-and-social .social ul li.twitter:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.twitter:focus a i {
+            color: #00ACED; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li.googleplus:hover, body .off-canvas-content #contact .callout.address-and-social .social ul li.googleplus:focus {
+          box-shadow: 0 0 24px 0 #dd4b39; }
+          body .off-canvas-content #contact .callout.address-and-social .social ul li.googleplus:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.googleplus:focus a i {
+            color: #dd4b39; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li.web:hover, body .off-canvas-content #contact .callout.address-and-social .social ul li.web:focus {
+          box-shadow: 0 0 24px 0 #C51162; }
+          body .off-canvas-content #contact .callout.address-and-social .social ul li.web:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.web:focus a i {
+            color: #C51162; }
+        body .off-canvas-content #contact .callout.address-and-social .social ul li.github:hover, body .off-canvas-content #contact .callout.address-and-social .social ul li.github:focus {
+          box-shadow: 0 0 24px 0 #3F51B5; }
+          body .off-canvas-content #contact .callout.address-and-social .social ul li.github:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.github:focus a i {
+            color: #3F51B5; }
 body .thumbnail {
   width: 100%;
   border: none; }
