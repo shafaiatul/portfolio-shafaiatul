@@ -6,6 +6,58 @@ $primary: #2980b9;
 
 body {
 
+    .tdc-screenshots {
+        z-index: 100;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #8C9EFF;
+        transition: left .5s;
+        h3 {
+            color: #fff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 700;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background: #CDDC39;
+            border-radius: 50px;
+            display: inline-block;
+            .title {
+                color: #009688;
+            }
+        }
+        h4 {
+            color: #fff;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 300;
+            margin: 10px 0;
+        }
+
+
+        img.thumbnail.image-container {
+            margin-top: 28px!important;
+        }
+
+
+        .button {
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+    }
+
+    .hidden {
+        left: -100vw;
+    }
+    .visible {
+        left: 0;
+    }
+
+    .thumbnail {
+        width: 100%;
+        border: none;
+    }
+
     .off-canvas {
         bottom: 0;
         background:#E0E0E0;
@@ -74,6 +126,7 @@ body {
     }
     .off-canvas-content { //off-canvas Content Starts
         background: #edeff0;
+
         .title-bar {
             background: #009688;
             border-bottom: 3px solid #fff;
@@ -127,7 +180,7 @@ body {
                 overflow: hidden;
 
                 .overlay {
-                    border-bottom: 120px solid $yellow;
+                    border-bottom: 120px solid #80DEEA;
                     border-left: 120px solid transparent;
                     bottom: 15px;
                     height: 0;
@@ -141,7 +194,7 @@ body {
                 }
                 &:hover .overlay {
 
-                    border-bottom: 1000px solid $yellow; //size must be double container
+                    border-bottom: 1000px solid #80DEEA; //size must be double container
                     border-left: 1000px solid transparent;//size must be double container
                     transition: all .5s ease-out;
 
@@ -178,6 +231,20 @@ body {
                       padding: 0 0 12px;
                       font-weight: 500;
                     }
+                    .button {
+                        background: transparent;
+                        border: 2px solid #000;
+                        color: #000;
+                        font-family: 'Open Sans Condensed', sans-serif;
+                        font-weight: 700;
+                        font-size: 15px;
+
+                        &:hover {
+                            background: #263238;
+                            color: #fff;
+
+                        }
+                    }
                 }
 
                 &:hover .overlay-content{
@@ -200,13 +267,14 @@ body {
             .progress {
                 height: 1.2rem;
                 .progress-meter {
-                    background: #e8c63d;
+                    background: #26A69A;
                 }
             }
         }
 
         // Clients
         #clients{
+
             .tdc, .annoor, .raees {
                 margin-bottom: 30px;
                 background: #fff;
@@ -305,9 +373,10 @@ body {
                 border: 0;
                 margin-bottom: 0;
                 margin-top: 30px;
-
+                transition-duration: 150ms;
 
                     a {
+                        line-height: 3;
                         font-size: 40px;
                         color: #fff;
                         font-family: 'Open Sans Condensed', sans-serif;
@@ -316,6 +385,9 @@ body {
                             font-size: 80px;
                         }
                     }
+                &:hover {
+                    background: #26A69A;
+                }
 
             }
             .callout.address-and-social {
@@ -340,11 +412,13 @@ body {
                         }
                     }
                     .social {
+
                         ul {
                             text-align: center;
                             margin-top: 20px;
                             margin-left: 0;
                             padding: 30px;
+
 
                             li {
                                 list-style: none;
@@ -431,10 +505,7 @@ body {
     } //off-canvas Content Ends
 
 
-    .thumbnail {
-        width: 100%;
-        border: none;
-    }
+
 
 
 

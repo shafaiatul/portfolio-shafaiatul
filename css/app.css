@@ -1,5 +1,40 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+body .tdc-screenshots {
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #8C9EFF;
+  transition: left .5s; }
+  body .tdc-screenshots h3 {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #CDDC39;
+    border-radius: 50px;
+    display: inline-block; }
+    body .tdc-screenshots h3 .title {
+      color: #009688; }
+  body .tdc-screenshots h4 {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 10px 0; }
+  body .tdc-screenshots img.thumbnail.image-container {
+    margin-top: 28px !important; }
+  body .tdc-screenshots .button {
+    margin-top: 20px;
+    display: inline-block; }
+body .hidden {
+  left: -100vw; }
+body .visible {
+  left: 0; }
+body .thumbnail {
+  width: 100%;
+  border: none; }
 body .off-canvas {
   bottom: 0;
   background: #E0E0E0;
@@ -87,7 +122,7 @@ body .off-canvas-content {
     position: relative;
     overflow: hidden; }
     body .off-canvas-content .client-projects .overlay-container .overlay, body .off-canvas-content .personal-projects .overlay-container .overlay {
-      border-bottom: 120px solid #e8c63d;
+      border-bottom: 120px solid #80DEEA;
       border-left: 120px solid transparent;
       bottom: 15px;
       height: 0;
@@ -98,7 +133,7 @@ body .off-canvas-content {
       transition: all .5s ease-out;
       width: 0; }
     body .off-canvas-content .client-projects .overlay-container:hover .overlay, body .off-canvas-content .personal-projects .overlay-container:hover .overlay {
-      border-bottom: 1000px solid #e8c63d;
+      border-bottom: 1000px solid #80DEEA;
       border-left: 1000px solid transparent;
       transition: all .5s ease-out; }
     body .off-canvas-content .client-projects .overlay-container .corner-overlay-content, body .off-canvas-content .personal-projects .overlay-container .corner-overlay-content {
@@ -126,6 +161,16 @@ body .off-canvas-content {
         border-bottom: 1px solid #333;
         padding: 0 0 12px;
         font-weight: 500; }
+      body .off-canvas-content .client-projects .overlay-container .overlay-content .button, body .off-canvas-content .personal-projects .overlay-container .overlay-content .button {
+        background: transparent;
+        border: 2px solid #000;
+        color: #000;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 15px; }
+        body .off-canvas-content .client-projects .overlay-container .overlay-content .button:hover, body .off-canvas-content .personal-projects .overlay-container .overlay-content .button:hover {
+          background: #263238;
+          color: #fff; }
     body .off-canvas-content .client-projects .overlay-container:hover .overlay-content, body .off-canvas-content .personal-projects .overlay-container:hover .overlay-content {
       opacity: 1;
       transition: all .3s ease-out;
@@ -136,7 +181,7 @@ body .off-canvas-content {
   body .off-canvas-content #skills .progress {
     height: 1.2rem; }
     body .off-canvas-content #skills .progress .progress-meter {
-      background: #e8c63d; }
+      background: #26A69A; }
   body .off-canvas-content #clients .tdc, body .off-canvas-content #clients .annoor, body .off-canvas-content #clients .raees {
     margin-bottom: 30px;
     background: #fff;
@@ -185,8 +230,10 @@ body .off-canvas-content {
     background: #00BFA5;
     border: 0;
     margin-bottom: 0;
-    margin-top: 30px; }
+    margin-top: 30px;
+    transition-duration: 150ms; }
     body .off-canvas-content #contact .callout.email a {
+      line-height: 3;
       font-size: 40px;
       color: #fff;
       font-family: 'Open Sans Condensed', sans-serif;
@@ -194,6 +241,8 @@ body .off-canvas-content {
       @media screen and (min-width: 40em) {
         body .off-canvas-content #contact .callout.email a {
           font-size: 80px; } }
+    body .off-canvas-content #contact .callout.email:hover {
+      background: #26A69A; }
   body .off-canvas-content #contact .callout.address-and-social {
     background: #fff;
     border: 0;
@@ -244,8 +293,5 @@ body .off-canvas-content {
           box-shadow: 0 0 24px 0 #3F51B5; }
           body .off-canvas-content #contact .callout.address-and-social .social ul li.github:hover a i, body .off-canvas-content #contact .callout.address-and-social .social ul li.github:focus a i {
             color: #3F51B5; }
-body .thumbnail {
-  width: 100%;
-  border: none; }
 
 /*# sourceMappingURL=app.css.map */

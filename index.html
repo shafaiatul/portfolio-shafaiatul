@@ -6,12 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/46a91d47b7.js"></script>
+    <!-- Motion-UI -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" /> -->
+
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/foundation-icons.css">
+    <!-- <link rel="stylesheet" href="css/motion-ui.css"> -->
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
+
+
+        <div class="tdc-screenshots hidden">
+            <!-- For Desktop View -->
+            <div class="reveal full" id="openingModal1" data-reveal>
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">
+                        <i class="fi-x"></i>
+                    </span>
+                </button>
+                <img src="" class="thumbnail image-container" alt="" style="margin-top: 28px!important">
+            </div>
+            <!-- For Mobile View -->
+            <div class="reveal tiny" id="openingModal2" data-reveal>
+                <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">
+                        <i class="fi-x"></i>
+                    </span>
+                </button>
+                <img src="" class="thumbnail image-container" alt="" style="margin-top: 28px!important">
+            </div>
+
+            <div class="row">
+                <div class="small-12 columns">
+                    <button class="float-right button secondary" type="button" name="button"><i class="fi-x"></i></button>
+                    <h3><span class="title">The Doctor's Channel</span>&nbsp;Development Screenshots</h3>
+                </div>
+            </div>
+
+            <!-- lagre view screenshots (Starts) -->
+            <div class="row column">
+                <h4>Desktop view</h4>
+            </div>
+
+            <div class="row small-up-6 large-device">
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg1.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg2.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg3.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg4.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg5.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg6.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg7.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal1">
+                        <img src="assets/images/screenshots/lg8.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- lagre view screenshots (Ends) -->
+
+            <!-- Small view screenshots (Starts) -->
+            <div class="row column">
+                <h4>Mobile view</h4>
+            </div>
+
+            <div class="row small-up-6 small-device">
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm1.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm2.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm3.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm4.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm5.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-open="openingModal2">
+                        <img src="assets/images/screenshots/sm6.png" class="thumbnail" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- Small view screenshots (Ends) -->
+
+        </div>
+
 
         <div class="off-canvas-wrapper">
             <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -34,6 +157,7 @@
                     </div>
                 </div>
                 <div class="off-canvas-content" data-off-canvas-content>
+
                     <div class="title-bar hide-for-large">
                         <div class="title-bar-left">
                             <button class="menu-icon" type="button" data-open="my-info"></button>
@@ -71,6 +195,7 @@
                                         <p>
                                             I've got the opportunity to work for Mdea Inc, where I'm currently developing the front-end part of the entire website from scratch
                                         </p>
+                                        <button class="button tdc" href="#">Check out</button>
 
                                     </div>
                                 </div>
@@ -118,7 +243,7 @@
                                     <div class="corner-overlay-content">Description</div>
 
                                     <div class="overlay-content">
-                                        <h4>Weather API</h4>
+                                        <h4>Onivyde</h4>
                                         <p>
                                             I've got the opportunity to work for Mdea Inc, where I'm currently developing the front-end part of the entire website from scratch
                                         </p>
@@ -596,6 +721,7 @@
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
+    <!-- <script src="js/vendor/motion-ui.js"></script> -->
     <script src="js/app.js"></script>
   </body>
 </html>
