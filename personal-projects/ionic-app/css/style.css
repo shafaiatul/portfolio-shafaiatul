@@ -1,0 +1,55 @@
+/* Empty. Add your own CSS if you like */
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body{
+	cursor: url('http://ionicframework.com/img/finger.png');
+}
+
+
+.star>.item-content{
+	background-color: #EEE8D6 !important;
+}
+
+.splash{
+	background: url(../img/green.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.branding{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	margin-top: 250px;
+
+}
+h1.logo{
+	font-family: 'Pacifico', 'Arial', 'Helvetica', sans-serif;
+}
+
+.item-divider{
+	background: #EEE8D6;
+}
+.bar-balanced, .tabs-balanced>.tabs {
+	background-color: #16a085 !important;
+	border-color: #16a085;
+}
+.item-thumbnail-left img{
+	border-radius: 10px;
+}
+.item h3{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #16a085;
+}
+.dayhighlight{
+	background-color: #9EC6DE;
+	border-top: 20px solid #16a085;
+}
+.dayhighlight h2{
+	color: #417D9A;
+	font-size: 2rem;
+	font-weight: 200;
+}
