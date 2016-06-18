@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-shafaiatul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flightplan.js",
+  "dependencies": {
+    "flightplan": "^0.6.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafaiatul/portfolio-shafaiatul.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shafaiatul/portfolio-shafaiatul/issues"
+  },
+  "homepage": "https://github.com/shafaiatul/portfolio-shafaiatul#readme"
+}
